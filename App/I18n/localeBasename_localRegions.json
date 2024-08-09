@@ -1,0 +1,63 @@
+{
+  "de": [
+    "de-AT",
+    "de-CH",
+    "de-DE"
+  ],
+  "el": [
+    "el-GR",
+    "el-CY"
+  ],
+  "en": [
+    "en-AU",
+    "en-CA",
+    "en-CY",
+    "en-GB",
+    "en-IE",
+    "en-IN",
+    "en-NZ",
+    "en-US",
+    "en-ZA"
+  ],
+  "es": [
+    "es-AR",
+    "es-CL",
+    "es-CO",
+    "es-CR",
+    "es-EC",
+    "es-ES",
+    "es-MX",
+    "es-PA",
+    "es-PE",
+    "es-US",
+    "es-VE"
+  ],
+  "fr": [
+    "fr-CA",
+    "fr-CH",
+    "fr-FR"
+  ],
+  "hi": [
+    "hi-IN"
+  ],
+  "it": [
+    "it-CH",
+    "it-IT"
+  ],
+  "mr": [
+    "mr-IN"
+  ],
+  "pt": [
+    "pt-PT",
+    "pt-BR"
+  ],
+  "sv": [
+    "sv-SE"
+  ],
+  "zh": [
+    "zh-CN",
+    "zh-HK",
+    "zh-TW",
+    "zh-YUE"
+  ]
+}

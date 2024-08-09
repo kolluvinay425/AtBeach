@@ -1,0 +1,540 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="it.innopa.inspiaggia"
+4    android:versionCode="45"
+5    android:versionName="2.14" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:5:5-67
+11-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:6:5-79
+12-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:7:5-81
+13-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:8:5-81
+14-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:9:5-66
+15-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:9:22-63
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:10:5-78
+16-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+17-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:11:5-77
+17-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:11:22-75
+18
+19    <!-- for Android 5.0 (API level 21) or higher. -->
+20    <uses-feature android:name="android.hardware.location.gps" />
+20-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:14:5-66
+20-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:14:19-63
+21    <uses-feature android:name="android.hardware.location.network" />
+21-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:15:5-70
+21-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:15:19-67
+22
+23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+23-->[:react-native-community_netinfo] /home/vinay/innopa/innopa-spiaggeapp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-76
+23-->[:react-native-community_netinfo] /home/vinay/innopa/innopa-spiaggeapp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-73
+24    <uses-permission android:name="android.permission.WAKE_LOCK" />
+24-->[:react-native-firebase_analytics] /home/vinay/innopa/innopa-spiaggeapp/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-68
+24-->[:react-native-firebase_analytics] /home/vinay/innopa/innopa-spiaggeapp/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-65
+25    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- See https://developer.android.com/training/package-visibility/declaring for more details. -->
+25-->[:react-native-share] /home/vinay/innopa/innopa-spiaggeapp/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+25-->[:react-native-share] /home/vinay/innopa/innopa-spiaggeapp/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+26    <queries>
+26-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:10:5-14:15
+27
+28        <!-- Added to check if Chrome is installed for browser-based payment authentication (e.g. 3DS1). -->
+29        <package android:name="com.android.chrome" />
+29-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:13:9-54
+29-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:13:18-51
+30    </queries> <!-- Required by older versions of Google Play services to create IID tokens -->
+31    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+31-->[com.google.android.gms:play-services-iid:17.0.0] /home/vinay/.gradle/caches/transforms-3/fb1cdbf011514bd0b13e79375c85ebae/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+31-->[com.google.android.gms:play-services-iid:17.0.0] /home/vinay/.gradle/caches/transforms-3/fb1cdbf011514bd0b13e79375c85ebae/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+32    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+32-->[com.google.android.gms:play-services-measurement:19.0.0] /home/vinay/.gradle/caches/transforms-3/9170404bb9e50f662edfdcc24105b9ec/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:26:5-110
+32-->[com.google.android.gms:play-services-measurement:19.0.0] /home/vinay/.gradle/caches/transforms-3/9170404bb9e50f662edfdcc24105b9ec/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:26:22-107
+33
+34    <uses-feature
+34-->[com.google.android.gms:play-services-maps:17.0.0] /home/vinay/.gradle/caches/transforms-3/4cbc840c1d2a592c83c2549bd6eead09/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+35        android:glEsVersion="0x00020000"
+35-->[com.google.android.gms:play-services-maps:17.0.0] /home/vinay/.gradle/caches/transforms-3/4cbc840c1d2a592c83c2549bd6eead09/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+36        android:required="true" />
+36-->[com.google.android.gms:play-services-maps:17.0.0] /home/vinay/.gradle/caches/transforms-3/4cbc840c1d2a592c83c2549bd6eead09/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+37
+38    <application
+38-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:17:5-50:19
+39        android:name="it.innopa.inspiaggia.MainApplication"
+39-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:18:13-44
+40        android:allowBackup="false"
+40-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:21:13-40
+41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+41-->[androidx.core:core:1.5.0] /home/vinay/.gradle/caches/transforms-3/674c29394391cf31d4f4da2e082143a7/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+42        android:icon="@mipmap/ic_launcher"
+42-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:20:13-47
+43        android:label="@string/app_name"
+43-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:19:13-45
+44        android:networkSecurityConfig="@xml/network_security_config"
+44-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:25:13-73
+45        android:supportsRtl="true"
+45-->[com.facebook.android:facebook-android-sdk:12.3.0] /home/vinay/.gradle/caches/transforms-3/84a4b805faeb0792d0b54d5dd0c80216/transformed/jetified-facebook-android-sdk-12.3.0/AndroidManifest.xml:28:18-44
+46        android:theme="@style/AppTheme"
+46-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:22:13-44
+47        android:usesCleartextTraffic="true" >
+47-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:24:13-48
+48        <meta-data
+48-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:28:1-99
+49            android:name="com.facebook.sdk.ApplicationId"
+49-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:28:12-57
+50            android:value="@string/facebook_app_id" />
+50-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:28:58-97
+51        <meta-data
+51-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:29:5-107
+52            android:name="com.facebook.sdk.ClientToken"
+52-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:29:16-59
+53            android:value="@string/facebook_client_token" />
+53-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:29:60-105
+54        <meta-data
+54-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:30:9-32:74
+55            android:name="com.google.android.geo.API_KEY"
+55-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:31:17-62
+56            android:value="AIzaSyCm9C8oaBbmMkQg15IRSj6SfQaNbIf9Aes" />
+56-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:32:17-72
+57
+58        <uses-library
+58-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:34:9-87
+59            android:name="org.apache.http.legacy"
+59-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:34:23-60
+60            android:required="false" />
+60-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:34:61-85
+61
+62        <activity
+62-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:36:9-48:20
+63            android:name="it.innopa.inspiaggia.MainActivity"
+63-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:37:17-45
+64            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+64-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:39:17-94
+65            android:label="@string/app_name"
+65-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:38:17-49
+66            android:launchMode="singleTask"
+66-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:40:17-48
+67            android:screenOrientation="portrait"
+67-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:42:17-53
+68            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" >
+68-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:41:17-74
+69            <intent-filter>
+69-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:44:13-47:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:45:17-69
+70-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:45:25-66
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:46:17-77
+72-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:46:27-74
+73            </intent-filter>
+74        </activity>
+75        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+75-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:49:9-86
+75-->/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/AndroidManifest.xml:49:19-83
+76
+77        <meta-data
+77-->[:react-native-firebase_analytics] /home/vinay/innopa/innopa-spiaggeapp/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-16:36
+78            android:name="firebase_analytics_collection_enabled"
+78-->[:react-native-firebase_analytics] /home/vinay/innopa/innopa-spiaggeapp/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-65
+79            android:value="true" />
+79-->[:react-native-firebase_analytics] /home/vinay/innopa/innopa-spiaggeapp/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-33
+80        <meta-data
+80-->[:sentry_react-native] /home/vinay/innopa/innopa-spiaggeapp/node_modules/@sentry/react-native/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:9-15:37
+81            android:name="io.sentry.auto-init"
+81-->[:sentry_react-native] /home/vinay/innopa/innopa-spiaggeapp/node_modules/@sentry/react-native/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+82            android:value="false" />
+82-->[:sentry_react-native] /home/vinay/innopa/innopa-spiaggeapp/node_modules/@sentry/react-native/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-34
+83
+84        <receiver
+84-->[:react-native-device-info] /home/vinay/innopa/innopa-spiaggeapp/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-19:20
+85            android:name="com.learnium.RNDeviceInfo.RNDeviceReceiver"
+85-->[:react-native-device-info] /home/vinay/innopa/innopa-spiaggeapp/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-70
+86            android:enabled="true"
+86-->[:react-native-device-info] /home/vinay/innopa/innopa-spiaggeapp/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-35
+87            android:exported="true" >
+87-->[:react-native-device-info] /home/vinay/innopa/innopa-spiaggeapp/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-36
+88            <intent-filter>
+88-->[:react-native-device-info] /home/vinay/innopa/innopa-spiaggeapp/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-18:29
+89                <action android:name="com.android.vending.INSTALL_REFERRER" />
+89-->[:react-native-device-info] /home/vinay/innopa/innopa-spiaggeapp/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-79
+89-->[:react-native-device-info] /home/vinay/innopa/innopa-spiaggeapp/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:25-76
+90            </intent-filter>
+91        </receiver>
+92
+93        <provider
+93-->[:react-native-share] /home/vinay/innopa/innopa-spiaggeapp/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-20:20
+94            android:name="cl.json.RNShareFileProvider"
+94-->[:react-native-share] /home/vinay/innopa/innopa-spiaggeapp/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-55
+95            android:authorities="it.innopa.inspiaggia.rnshare.fileprovider"
+95-->[:react-native-share] /home/vinay/innopa/innopa-spiaggeapp/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-72
+96            android:exported="false"
+96-->[:react-native-share] /home/vinay/innopa/innopa-spiaggeapp/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-37
+97            android:grantUriPermissions="true" >
+97-->[:react-native-share] /home/vinay/innopa/innopa-spiaggeapp/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-47
+98            <meta-data
+98-->[:react-native-share] /home/vinay/innopa/innopa-spiaggeapp/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-19:64
+99                android:name="android.support.FILE_PROVIDER_PATHS"
+99-->[:react-native-share] /home/vinay/innopa/innopa-spiaggeapp/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:17-67
+100                android:resource="@xml/share_download_paths" />
+100-->[:react-native-share] /home/vinay/innopa/innopa-spiaggeapp/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:17-61
+101        </provider>
+102        <provider
+102-->[:react-native-webview] /home/vinay/innopa/innopa-spiaggeapp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+103            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+103-->[:react-native-webview] /home/vinay/innopa/innopa-spiaggeapp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-83
+104            android:authorities="it.innopa.inspiaggia.fileprovider"
+104-->[:react-native-webview] /home/vinay/innopa/innopa-spiaggeapp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-64
+105            android:exported="false"
+105-->[:react-native-webview] /home/vinay/innopa/innopa-spiaggeapp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+106            android:grantUriPermissions="true" >
+106-->[:react-native-webview] /home/vinay/innopa/innopa-spiaggeapp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+107            <meta-data
+107-->[:react-native-share] /home/vinay/innopa/innopa-spiaggeapp/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-19:64
+108                android:name="android.support.FILE_PROVIDER_PATHS"
+108-->[:react-native-share] /home/vinay/innopa/innopa-spiaggeapp/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:17-67
+109                android:resource="@xml/file_provider_paths" />
+109-->[:react-native-share] /home/vinay/innopa/innopa-spiaggeapp/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:17-61
+110        </provider>
+111
+112        <meta-data
+112-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] /home/vinay/.gradle/caches/transforms-3/fa2de6f339ca43e754190ce6eeb07956/transformed/jetified-okhttp3-integration-4.11.0/AndroidManifest.xml:11:9-13:43
+113            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+113-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] /home/vinay/.gradle/caches/transforms-3/fa2de6f339ca43e754190ce6eeb07956/transformed/jetified-okhttp3-integration-4.11.0/AndroidManifest.xml:12:13-84
+114            android:value="GlideModule" />
+114-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] /home/vinay/.gradle/caches/transforms-3/fa2de6f339ca43e754190ce6eeb07956/transformed/jetified-okhttp3-integration-4.11.0/AndroidManifest.xml:13:13-40
+115
+116        <activity
+116-->[com.facebook.android:facebook-common:12.3.0] /home/vinay/.gradle/caches/transforms-3/e8f646f4585fdcf8175679eed504d903/transformed/jetified-facebook-common-12.3.0/AndroidManifest.xml:30:9-33:66
+117            android:name="com.facebook.FacebookActivity"
+117-->[com.facebook.android:facebook-common:12.3.0] /home/vinay/.gradle/caches/transforms-3/e8f646f4585fdcf8175679eed504d903/transformed/jetified-facebook-common-12.3.0/AndroidManifest.xml:31:13-57
+118            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+118-->[com.facebook.android:facebook-common:12.3.0] /home/vinay/.gradle/caches/transforms-3/e8f646f4585fdcf8175679eed504d903/transformed/jetified-facebook-common-12.3.0/AndroidManifest.xml:32:13-96
+119            android:theme="@style/com_facebook_activity_theme" />
+119-->[com.facebook.android:facebook-common:12.3.0] /home/vinay/.gradle/caches/transforms-3/e8f646f4585fdcf8175679eed504d903/transformed/jetified-facebook-common-12.3.0/AndroidManifest.xml:33:13-63
+120        <activity android:name="com.facebook.CustomTabMainActivity" />
+120-->[com.facebook.android:facebook-common:12.3.0] /home/vinay/.gradle/caches/transforms-3/e8f646f4585fdcf8175679eed504d903/transformed/jetified-facebook-common-12.3.0/AndroidManifest.xml:34:9-71
+120-->[com.facebook.android:facebook-common:12.3.0] /home/vinay/.gradle/caches/transforms-3/e8f646f4585fdcf8175679eed504d903/transformed/jetified-facebook-common-12.3.0/AndroidManifest.xml:34:19-68
+121        <activity
+121-->[com.facebook.android:facebook-common:12.3.0] /home/vinay/.gradle/caches/transforms-3/e8f646f4585fdcf8175679eed504d903/transformed/jetified-facebook-common-12.3.0/AndroidManifest.xml:35:9-49:20
+122            android:name="com.facebook.CustomTabActivity"
+122-->[com.facebook.android:facebook-common:12.3.0] /home/vinay/.gradle/caches/transforms-3/e8f646f4585fdcf8175679eed504d903/transformed/jetified-facebook-common-12.3.0/AndroidManifest.xml:36:13-58
+123            android:exported="true" >
+123-->[com.facebook.android:facebook-common:12.3.0] /home/vinay/.gradle/caches/transforms-3/e8f646f4585fdcf8175679eed504d903/transformed/jetified-facebook-common-12.3.0/AndroidManifest.xml:37:13-36
+124            <intent-filter>
+124-->[com.facebook.android:facebook-common:12.3.0] /home/vinay/.gradle/caches/transforms-3/e8f646f4585fdcf8175679eed504d903/transformed/jetified-facebook-common-12.3.0/AndroidManifest.xml:39:13-48:29
+125                <action android:name="android.intent.action.VIEW" />
+125-->[com.facebook.android:facebook-common:12.3.0] /home/vinay/.gradle/caches/transforms-3/e8f646f4585fdcf8175679eed504d903/transformed/jetified-facebook-common-12.3.0/AndroidManifest.xml:40:17-69
+125-->[com.facebook.android:facebook-common:12.3.0] /home/vinay/.gradle/caches/transforms-3/e8f646f4585fdcf8175679eed504d903/transformed/jetified-facebook-common-12.3.0/AndroidManifest.xml:40:25-66
+126
+127                <category android:name="android.intent.category.DEFAULT" />
+127-->[com.facebook.android:facebook-common:12.3.0] /home/vinay/.gradle/caches/transforms-3/e8f646f4585fdcf8175679eed504d903/transformed/jetified-facebook-common-12.3.0/AndroidManifest.xml:42:17-76
+127-->[com.facebook.android:facebook-common:12.3.0] /home/vinay/.gradle/caches/transforms-3/e8f646f4585fdcf8175679eed504d903/transformed/jetified-facebook-common-12.3.0/AndroidManifest.xml:42:27-73
+128                <category android:name="android.intent.category.BROWSABLE" />
+128-->[com.facebook.android:facebook-common:12.3.0] /home/vinay/.gradle/caches/transforms-3/e8f646f4585fdcf8175679eed504d903/transformed/jetified-facebook-common-12.3.0/AndroidManifest.xml:43:17-78
+128-->[com.facebook.android:facebook-common:12.3.0] /home/vinay/.gradle/caches/transforms-3/e8f646f4585fdcf8175679eed504d903/transformed/jetified-facebook-common-12.3.0/AndroidManifest.xml:43:27-75
+129
+130                <data
+130-->[com.facebook.android:facebook-common:12.3.0] /home/vinay/.gradle/caches/transforms-3/e8f646f4585fdcf8175679eed504d903/transformed/jetified-facebook-common-12.3.0/AndroidManifest.xml:45:17-47:50
+131                    android:host="cct.it.innopa.inspiaggia"
+131-->[com.facebook.android:facebook-common:12.3.0] /home/vinay/.gradle/caches/transforms-3/e8f646f4585fdcf8175679eed504d903/transformed/jetified-facebook-common-12.3.0/AndroidManifest.xml:46:21-56
+132                    android:scheme="fbconnect" />
+132-->[com.facebook.android:facebook-common:12.3.0] /home/vinay/.gradle/caches/transforms-3/e8f646f4585fdcf8175679eed504d903/transformed/jetified-facebook-common-12.3.0/AndroidManifest.xml:47:21-47
+133            </intent-filter>
+134        </activity>
+135        <activity
+135-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:17:9-19:57
+136            android:name="com.stripe.android.view.AddPaymentMethodActivity"
+136-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:18:13-76
+137            android:theme="@style/StripeDefaultTheme" />
+137-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:19:13-54
+138        <activity
+138-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:20:9-22:57
+139            android:name="com.stripe.android.view.PaymentMethodsActivity"
+139-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:21:13-74
+140            android:theme="@style/StripeDefaultTheme" />
+140-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:22:13-54
+141        <activity
+141-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:23:9-25:57
+142            android:name="com.stripe.android.view.PaymentFlowActivity"
+142-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:24:13-71
+143            android:theme="@style/StripeDefaultTheme" />
+143-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:25:13-54
+144        <activity
+144-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:26:9-29:58
+145            android:name="com.stripe.android.view.PaymentAuthWebViewActivity"
+145-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:27:13-78
+146            android:theme="@style/StripeDefaultTheme"
+146-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:28:13-54
+147            android:windowSoftInputMode="adjustResize" />
+147-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:29:13-55
+148        <activity
+148-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:30:9-32:61
+149            android:name="com.stripe.android.view.PaymentRelayActivity"
+149-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:31:13-72
+150            android:theme="@style/StripeTransparentTheme" />
+150-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:32:13-58
+151        <!--
+152        Set android:launchMode="singleTop" so that the StripeBrowserLauncherActivity instance that
+153        launched the browser Activity will also handle the return URL deep link.
+154        -->
+155        <activity
+155-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:38:9-54:20
+156            android:name="com.stripe.android.payments.StripeBrowserLauncherActivity"
+156-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:39:13-85
+157            android:launchMode="singleTop"
+157-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:40:13-43
+158            android:theme="@style/StripeTransparentTheme" >
+158-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:41:13-58
+159            <intent-filter>
+159-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:42:13-53:29
+160                <action android:name="android.intent.action.VIEW" />
+160-->[com.facebook.android:facebook-common:12.3.0] /home/vinay/.gradle/caches/transforms-3/e8f646f4585fdcf8175679eed504d903/transformed/jetified-facebook-common-12.3.0/AndroidManifest.xml:40:17-69
+160-->[com.facebook.android:facebook-common:12.3.0] /home/vinay/.gradle/caches/transforms-3/e8f646f4585fdcf8175679eed504d903/transformed/jetified-facebook-common-12.3.0/AndroidManifest.xml:40:25-66
+161
+162                <category android:name="android.intent.category.DEFAULT" />
+162-->[com.facebook.android:facebook-common:12.3.0] /home/vinay/.gradle/caches/transforms-3/e8f646f4585fdcf8175679eed504d903/transformed/jetified-facebook-common-12.3.0/AndroidManifest.xml:42:17-76
+162-->[com.facebook.android:facebook-common:12.3.0] /home/vinay/.gradle/caches/transforms-3/e8f646f4585fdcf8175679eed504d903/transformed/jetified-facebook-common-12.3.0/AndroidManifest.xml:42:27-73
+163                <category android:name="android.intent.category.BROWSABLE" />
+163-->[com.facebook.android:facebook-common:12.3.0] /home/vinay/.gradle/caches/transforms-3/e8f646f4585fdcf8175679eed504d903/transformed/jetified-facebook-common-12.3.0/AndroidManifest.xml:43:17-78
+163-->[com.facebook.android:facebook-common:12.3.0] /home/vinay/.gradle/caches/transforms-3/e8f646f4585fdcf8175679eed504d903/transformed/jetified-facebook-common-12.3.0/AndroidManifest.xml:43:27-75
+164
+165                <!-- Must match `DefaultReturnUrl#value`. -->
+166                <data
+166-->[com.facebook.android:facebook-common:12.3.0] /home/vinay/.gradle/caches/transforms-3/e8f646f4585fdcf8175679eed504d903/transformed/jetified-facebook-common-12.3.0/AndroidManifest.xml:45:17-47:50
+167                    android:host="payment_return_url"
+167-->[com.facebook.android:facebook-common:12.3.0] /home/vinay/.gradle/caches/transforms-3/e8f646f4585fdcf8175679eed504d903/transformed/jetified-facebook-common-12.3.0/AndroidManifest.xml:46:21-56
+168                    android:path="/it.innopa.inspiaggia"
+169                    android:scheme="stripesdk" />
+169-->[com.facebook.android:facebook-common:12.3.0] /home/vinay/.gradle/caches/transforms-3/e8f646f4585fdcf8175679eed504d903/transformed/jetified-facebook-common-12.3.0/AndroidManifest.xml:47:21-47
+170            </intent-filter>
+171        </activity>
+172        <activity
+172-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:55:9-57:57
+173            android:name="com.stripe.android.view.Stripe3ds2CompletionActivity"
+173-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:56:13-80
+174            android:theme="@style/StripeDefaultTheme" />
+174-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:57:13-54
+175        <activity
+175-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:58:9-60:69
+176            android:name="com.stripe.android.paymentsheet.PaymentSheetActivity"
+176-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:59:13-80
+177            android:theme="@style/StripePaymentSheetDefaultTheme" />
+177-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:60:13-66
+178        <activity
+178-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:61:9-63:69
+179            android:name="com.stripe.android.paymentsheet.PaymentOptionsActivity"
+179-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:62:13-82
+180            android:theme="@style/StripePaymentSheetDefaultTheme" />
+180-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:63:13-66
+181        <activity
+181-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:64:9-66:66
+182            android:name="com.stripe.android.googlepay.StripeGooglePayActivity"
+182-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:65:13-80
+183            android:theme="@style/StripeGooglePayDefaultTheme" />
+183-->[com.stripe:payments-core:16.10.0] /home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/AndroidManifest.xml:66:13-63
+184        <!--
+185         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+186         with the application context. This config is merged in with the host app's manifest,
+187         but there can only be one provider with the same authority activated at any given
+188         point; so if the end user has two or more different apps that use Facebook SDK, only the
+189         first one will be able to use the provider. To work around this problem, we use the
+190         following placeholder in the authority to identify each host application as if it was
+191         a completely different provider.
+192        -->
+193        <provider
+193-->[com.facebook.android:facebook-core:12.3.0] /home/vinay/.gradle/caches/transforms-3/438e193ab81b99cfb8d85be7f5d8cd60/transformed/jetified-facebook-core-12.3.0/AndroidManifest.xml:39:9-42:40
+194            android:name="com.facebook.internal.FacebookInitProvider"
+194-->[com.facebook.android:facebook-core:12.3.0] /home/vinay/.gradle/caches/transforms-3/438e193ab81b99cfb8d85be7f5d8cd60/transformed/jetified-facebook-core-12.3.0/AndroidManifest.xml:40:13-70
+195            android:authorities="it.innopa.inspiaggia.FacebookInitProvider"
+195-->[com.facebook.android:facebook-core:12.3.0] /home/vinay/.gradle/caches/transforms-3/438e193ab81b99cfb8d85be7f5d8cd60/transformed/jetified-facebook-core-12.3.0/AndroidManifest.xml:41:13-72
+196            android:exported="false" />
+196-->[com.facebook.android:facebook-core:12.3.0] /home/vinay/.gradle/caches/transforms-3/438e193ab81b99cfb8d85be7f5d8cd60/transformed/jetified-facebook-core-12.3.0/AndroidManifest.xml:42:13-37
+197
+198        <receiver
+198-->[com.facebook.android:facebook-core:12.3.0] /home/vinay/.gradle/caches/transforms-3/438e193ab81b99cfb8d85be7f5d8cd60/transformed/jetified-facebook-core-12.3.0/AndroidManifest.xml:44:9-50:20
+199            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+199-->[com.facebook.android:facebook-core:12.3.0] /home/vinay/.gradle/caches/transforms-3/438e193ab81b99cfb8d85be7f5d8cd60/transformed/jetified-facebook-core-12.3.0/AndroidManifest.xml:45:13-86
+200            android:exported="false" >
+200-->[com.facebook.android:facebook-core:12.3.0] /home/vinay/.gradle/caches/transforms-3/438e193ab81b99cfb8d85be7f5d8cd60/transformed/jetified-facebook-core-12.3.0/AndroidManifest.xml:46:13-37
+201            <intent-filter>
+201-->[com.facebook.android:facebook-core:12.3.0] /home/vinay/.gradle/caches/transforms-3/438e193ab81b99cfb8d85be7f5d8cd60/transformed/jetified-facebook-core-12.3.0/AndroidManifest.xml:47:13-49:29
+202                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+202-->[com.facebook.android:facebook-core:12.3.0] /home/vinay/.gradle/caches/transforms-3/438e193ab81b99cfb8d85be7f5d8cd60/transformed/jetified-facebook-core-12.3.0/AndroidManifest.xml:48:17-95
+202-->[com.facebook.android:facebook-core:12.3.0] /home/vinay/.gradle/caches/transforms-3/438e193ab81b99cfb8d85be7f5d8cd60/transformed/jetified-facebook-core-12.3.0/AndroidManifest.xml:48:25-92
+203            </intent-filter>
+204        </receiver>
+205        <receiver
+205-->[com.facebook.android:facebook-core:12.3.0] /home/vinay/.gradle/caches/transforms-3/438e193ab81b99cfb8d85be7f5d8cd60/transformed/jetified-facebook-core-12.3.0/AndroidManifest.xml:51:9-57:20
+206            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+206-->[com.facebook.android:facebook-core:12.3.0] /home/vinay/.gradle/caches/transforms-3/438e193ab81b99cfb8d85be7f5d8cd60/transformed/jetified-facebook-core-12.3.0/AndroidManifest.xml:52:13-118
+207            android:exported="false" >
+207-->[com.facebook.android:facebook-core:12.3.0] /home/vinay/.gradle/caches/transforms-3/438e193ab81b99cfb8d85be7f5d8cd60/transformed/jetified-facebook-core-12.3.0/AndroidManifest.xml:53:13-37
+208            <intent-filter>
+208-->[com.facebook.android:facebook-core:12.3.0] /home/vinay/.gradle/caches/transforms-3/438e193ab81b99cfb8d85be7f5d8cd60/transformed/jetified-facebook-core-12.3.0/AndroidManifest.xml:54:13-56:29
+209                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+209-->[com.facebook.android:facebook-core:12.3.0] /home/vinay/.gradle/caches/transforms-3/438e193ab81b99cfb8d85be7f5d8cd60/transformed/jetified-facebook-core-12.3.0/AndroidManifest.xml:55:17-103
+209-->[com.facebook.android:facebook-core:12.3.0] /home/vinay/.gradle/caches/transforms-3/438e193ab81b99cfb8d85be7f5d8cd60/transformed/jetified-facebook-core-12.3.0/AndroidManifest.xml:55:25-100
+210            </intent-filter>
+211        </receiver>
+212
+213        <activity
+213-->[com.stripe:stripe-3ds2-android:5.3.1] /home/vinay/.gradle/caches/transforms-3/d9dd8c2d9dd003d84abe6e389de70fe9/transformed/jetified-stripe-3ds2-android-5.3.1/AndroidManifest.xml:10:9-12:54
+214            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
+214-->[com.stripe:stripe-3ds2-android:5.3.1] /home/vinay/.gradle/caches/transforms-3/d9dd8c2d9dd003d84abe6e389de70fe9/transformed/jetified-stripe-3ds2-android-5.3.1/AndroidManifest.xml:11:13-81
+215            android:theme="@style/Stripe3DS2Theme" />
+215-->[com.stripe:stripe-3ds2-android:5.3.1] /home/vinay/.gradle/caches/transforms-3/d9dd8c2d9dd003d84abe6e389de70fe9/transformed/jetified-stripe-3ds2-android-5.3.1/AndroidManifest.xml:12:13-51
+216        <activity
+216-->[com.stripe:stripe-3ds2-android:5.3.1] /home/vinay/.gradle/caches/transforms-3/d9dd8c2d9dd003d84abe6e389de70fe9/transformed/jetified-stripe-3ds2-android-5.3.1/AndroidManifest.xml:13:9-15:54
+217            android:name="com.stripe.android.stripe3ds2.views.ChallengeProgressActivity"
+217-->[com.stripe:stripe-3ds2-android:5.3.1] /home/vinay/.gradle/caches/transforms-3/d9dd8c2d9dd003d84abe6e389de70fe9/transformed/jetified-stripe-3ds2-android-5.3.1/AndroidManifest.xml:14:13-89
+218            android:theme="@style/Stripe3DS2Theme" />
+218-->[com.stripe:stripe-3ds2-android:5.3.1] /home/vinay/.gradle/caches/transforms-3/d9dd8c2d9dd003d84abe6e389de70fe9/transformed/jetified-stripe-3ds2-android-5.3.1/AndroidManifest.xml:15:13-51
+219        <activity
+219-->[com.google.android.gms:play-services-auth:19.0.0] /home/vinay/.gradle/caches/transforms-3/e374808626f432c35c58ecfa67dd33e2/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:23:9-27:75
+220            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+220-->[com.google.android.gms:play-services-auth:19.0.0] /home/vinay/.gradle/caches/transforms-3/e374808626f432c35c58ecfa67dd33e2/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:24:13-93
+221            android:excludeFromRecents="true"
+221-->[com.google.android.gms:play-services-auth:19.0.0] /home/vinay/.gradle/caches/transforms-3/e374808626f432c35c58ecfa67dd33e2/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:25:13-46
+222            android:exported="false"
+222-->[com.google.android.gms:play-services-auth:19.0.0] /home/vinay/.gradle/caches/transforms-3/e374808626f432c35c58ecfa67dd33e2/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:26:13-37
+223            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+223-->[com.google.android.gms:play-services-auth:19.0.0] /home/vinay/.gradle/caches/transforms-3/e374808626f432c35c58ecfa67dd33e2/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:27:13-72
+224        <!--
+225            Service handling Google Sign-In user revocation. For apps that do not integrate with
+226            Google Sign-In, this service will never be started.
+227        -->
+228        <service
+228-->[com.google.android.gms:play-services-auth:19.0.0] /home/vinay/.gradle/caches/transforms-3/e374808626f432c35c58ecfa67dd33e2/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:33:9-37:51
+229            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+229-->[com.google.android.gms:play-services-auth:19.0.0] /home/vinay/.gradle/caches/transforms-3/e374808626f432c35c58ecfa67dd33e2/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:34:13-89
+230            android:exported="true"
+230-->[com.google.android.gms:play-services-auth:19.0.0] /home/vinay/.gradle/caches/transforms-3/e374808626f432c35c58ecfa67dd33e2/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:35:13-36
+231            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+231-->[com.google.android.gms:play-services-auth:19.0.0] /home/vinay/.gradle/caches/transforms-3/e374808626f432c35c58ecfa67dd33e2/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:36:13-107
+232            android:visibleToInstantApps="true" />
+232-->[com.google.android.gms:play-services-auth:19.0.0] /home/vinay/.gradle/caches/transforms-3/e374808626f432c35c58ecfa67dd33e2/transformed/jetified-play-services-auth-19.0.0/AndroidManifest.xml:37:13-48
+233
+234        <receiver
+234-->[com.google.android.gms:play-services-measurement:19.0.0] /home/vinay/.gradle/caches/transforms-3/9170404bb9e50f662edfdcc24105b9ec/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:29:9-33:20
+235            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+235-->[com.google.android.gms:play-services-measurement:19.0.0] /home/vinay/.gradle/caches/transforms-3/9170404bb9e50f662edfdcc24105b9ec/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:30:13-85
+236            android:enabled="true"
+236-->[com.google.android.gms:play-services-measurement:19.0.0] /home/vinay/.gradle/caches/transforms-3/9170404bb9e50f662edfdcc24105b9ec/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:31:13-35
+237            android:exported="false" >
+237-->[com.google.android.gms:play-services-measurement:19.0.0] /home/vinay/.gradle/caches/transforms-3/9170404bb9e50f662edfdcc24105b9ec/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:32:13-37
+238        </receiver>
+239
+240        <service
+240-->[com.google.android.gms:play-services-measurement:19.0.0] /home/vinay/.gradle/caches/transforms-3/9170404bb9e50f662edfdcc24105b9ec/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:35:9-38:40
+241            android:name="com.google.android.gms.measurement.AppMeasurementService"
+241-->[com.google.android.gms:play-services-measurement:19.0.0] /home/vinay/.gradle/caches/transforms-3/9170404bb9e50f662edfdcc24105b9ec/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:36:13-84
+242            android:enabled="true"
+242-->[com.google.android.gms:play-services-measurement:19.0.0] /home/vinay/.gradle/caches/transforms-3/9170404bb9e50f662edfdcc24105b9ec/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:37:13-35
+243            android:exported="false" />
+243-->[com.google.android.gms:play-services-measurement:19.0.0] /home/vinay/.gradle/caches/transforms-3/9170404bb9e50f662edfdcc24105b9ec/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:38:13-37
+244        <service
+244-->[com.google.android.gms:play-services-measurement:19.0.0] /home/vinay/.gradle/caches/transforms-3/9170404bb9e50f662edfdcc24105b9ec/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:39:9-43:72
+245            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+245-->[com.google.android.gms:play-services-measurement:19.0.0] /home/vinay/.gradle/caches/transforms-3/9170404bb9e50f662edfdcc24105b9ec/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:40:13-87
+246            android:enabled="true"
+246-->[com.google.android.gms:play-services-measurement:19.0.0] /home/vinay/.gradle/caches/transforms-3/9170404bb9e50f662edfdcc24105b9ec/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:41:13-35
+247            android:exported="false"
+247-->[com.google.android.gms:play-services-measurement:19.0.0] /home/vinay/.gradle/caches/transforms-3/9170404bb9e50f662edfdcc24105b9ec/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:42:13-37
+248            android:permission="android.permission.BIND_JOB_SERVICE" />
+248-->[com.google.android.gms:play-services-measurement:19.0.0] /home/vinay/.gradle/caches/transforms-3/9170404bb9e50f662edfdcc24105b9ec/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:43:13-69
+249
+250        <activity
+250-->[com.google.android.gms:play-services-base:17.5.0] /home/vinay/.gradle/caches/transforms-3/ce33478eda25eb8469126e714568e2fc/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+251            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+251-->[com.google.android.gms:play-services-base:17.5.0] /home/vinay/.gradle/caches/transforms-3/ce33478eda25eb8469126e714568e2fc/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+252            android:exported="false"
+252-->[com.google.android.gms:play-services-base:17.5.0] /home/vinay/.gradle/caches/transforms-3/ce33478eda25eb8469126e714568e2fc/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+253            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+253-->[com.google.android.gms:play-services-base:17.5.0] /home/vinay/.gradle/caches/transforms-3/ce33478eda25eb8469126e714568e2fc/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+254
+255        <service
+255-->[com.google.android.gms:play-services-measurement-api:19.0.0] /home/vinay/.gradle/caches/transforms-3/87d9182dc721d6fe67576aed6c0c4303/transformed/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:27:9-33:19
+256            android:name="com.google.firebase.components.ComponentDiscoveryService"
+256-->[com.google.android.gms:play-services-measurement-api:19.0.0] /home/vinay/.gradle/caches/transforms-3/87d9182dc721d6fe67576aed6c0c4303/transformed/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:28:13-84
+257            android:directBootAware="true"
+257-->[com.google.firebase:firebase-common:20.0.0] /home/vinay/.gradle/caches/transforms-3/4817f4d22b06d425a57175fab48c5797/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+258            android:exported="false" >
+258-->[com.google.android.gms:play-services-measurement-api:19.0.0] /home/vinay/.gradle/caches/transforms-3/87d9182dc721d6fe67576aed6c0c4303/transformed/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:29:13-37
+259            <meta-data
+259-->[com.google.android.gms:play-services-measurement-api:19.0.0] /home/vinay/.gradle/caches/transforms-3/87d9182dc721d6fe67576aed6c0c4303/transformed/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:30:13-32:85
+260                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+260-->[com.google.android.gms:play-services-measurement-api:19.0.0] /home/vinay/.gradle/caches/transforms-3/87d9182dc721d6fe67576aed6c0c4303/transformed/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:31:17-139
+261                android:value="com.google.firebase.components.ComponentRegistrar" />
+261-->[com.google.android.gms:play-services-measurement-api:19.0.0] /home/vinay/.gradle/caches/transforms-3/87d9182dc721d6fe67576aed6c0c4303/transformed/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:32:17-82
+262            <meta-data
+262-->[com.google.firebase:firebase-installations:17.0.0] /home/vinay/.gradle/caches/transforms-3/5601121ada152b1d7f9e95ed78aad6a7/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+263                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+263-->[com.google.firebase:firebase-installations:17.0.0] /home/vinay/.gradle/caches/transforms-3/5601121ada152b1d7f9e95ed78aad6a7/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+264                android:value="com.google.firebase.components.ComponentRegistrar" />
+264-->[com.google.firebase:firebase-installations:17.0.0] /home/vinay/.gradle/caches/transforms-3/5601121ada152b1d7f9e95ed78aad6a7/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+265        </service>
+266
+267        <provider
+267-->[com.google.firebase:firebase-common:20.0.0] /home/vinay/.gradle/caches/transforms-3/4817f4d22b06d425a57175fab48c5797/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+268            android:name="com.google.firebase.provider.FirebaseInitProvider"
+268-->[com.google.firebase:firebase-common:20.0.0] /home/vinay/.gradle/caches/transforms-3/4817f4d22b06d425a57175fab48c5797/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+269            android:authorities="it.innopa.inspiaggia.firebaseinitprovider"
+269-->[com.google.firebase:firebase-common:20.0.0] /home/vinay/.gradle/caches/transforms-3/4817f4d22b06d425a57175fab48c5797/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+270            android:directBootAware="true"
+270-->[com.google.firebase:firebase-common:20.0.0] /home/vinay/.gradle/caches/transforms-3/4817f4d22b06d425a57175fab48c5797/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+271            android:exported="false"
+271-->[com.google.firebase:firebase-common:20.0.0] /home/vinay/.gradle/caches/transforms-3/4817f4d22b06d425a57175fab48c5797/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+272            android:initOrder="100" />
+272-->[com.google.firebase:firebase-common:20.0.0] /home/vinay/.gradle/caches/transforms-3/4817f4d22b06d425a57175fab48c5797/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+273
+274        <meta-data
+274-->[com.google.android.gms:play-services-basement:17.5.0] /home/vinay/.gradle/caches/transforms-3/b86aef5475f2bfdd17411aee9a91babc/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+275            android:name="com.google.android.gms.version"
+275-->[com.google.android.gms:play-services-basement:17.5.0] /home/vinay/.gradle/caches/transforms-3/b86aef5475f2bfdd17411aee9a91babc/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+276            android:value="@integer/google_play_services_version" /> <!-- 'android:authorities' must be unique in the device, across all apps -->
+276-->[com.google.android.gms:play-services-basement:17.5.0] /home/vinay/.gradle/caches/transforms-3/b86aef5475f2bfdd17411aee9a91babc/transformed/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+277        <provider
+277-->[io.sentry:sentry-android-core:5.1.0-beta.2] /home/vinay/.gradle/caches/transforms-3/e4555254ab004d74281c31bcaa65f39b/transformed/jetified-sentry-android-core-5.1.0-beta.2/AndroidManifest.xml:14:9-17:40
+278            android:name="io.sentry.android.core.SentryInitProvider"
+278-->[io.sentry:sentry-android-core:5.1.0-beta.2] /home/vinay/.gradle/caches/transforms-3/e4555254ab004d74281c31bcaa65f39b/transformed/jetified-sentry-android-core-5.1.0-beta.2/AndroidManifest.xml:15:13-69
+279            android:authorities="it.innopa.inspiaggia.SentryInitProvider"
+279-->[io.sentry:sentry-android-core:5.1.0-beta.2] /home/vinay/.gradle/caches/transforms-3/e4555254ab004d74281c31bcaa65f39b/transformed/jetified-sentry-android-core-5.1.0-beta.2/AndroidManifest.xml:16:13-70
+280            android:exported="false" />
+280-->[io.sentry:sentry-android-core:5.1.0-beta.2] /home/vinay/.gradle/caches/transforms-3/e4555254ab004d74281c31bcaa65f39b/transformed/jetified-sentry-android-core-5.1.0-beta.2/AndroidManifest.xml:17:13-37
+281        <provider
+281-->[io.sentry:sentry-android-core:5.1.0-beta.2] /home/vinay/.gradle/caches/transforms-3/e4555254ab004d74281c31bcaa65f39b/transformed/jetified-sentry-android-core-5.1.0-beta.2/AndroidManifest.xml:18:9-22:39
+282            android:name="io.sentry.android.core.SentryPerformanceProvider"
+282-->[io.sentry:sentry-android-core:5.1.0-beta.2] /home/vinay/.gradle/caches/transforms-3/e4555254ab004d74281c31bcaa65f39b/transformed/jetified-sentry-android-core-5.1.0-beta.2/AndroidManifest.xml:19:13-76
+283            android:authorities="it.innopa.inspiaggia.SentryPerformanceProvider"
+283-->[io.sentry:sentry-android-core:5.1.0-beta.2] /home/vinay/.gradle/caches/transforms-3/e4555254ab004d74281c31bcaa65f39b/transformed/jetified-sentry-android-core-5.1.0-beta.2/AndroidManifest.xml:20:13-77
+284            android:exported="false"
+284-->[io.sentry:sentry-android-core:5.1.0-beta.2] /home/vinay/.gradle/caches/transforms-3/e4555254ab004d74281c31bcaa65f39b/transformed/jetified-sentry-android-core-5.1.0-beta.2/AndroidManifest.xml:21:13-37
+285            android:initOrder="200" />
+285-->[io.sentry:sentry-android-core:5.1.0-beta.2] /home/vinay/.gradle/caches/transforms-3/e4555254ab004d74281c31bcaa65f39b/transformed/jetified-sentry-android-core-5.1.0-beta.2/AndroidManifest.xml:22:13-36
+286        <provider
+286-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/vinay/.gradle/caches/transforms-3/bbaf04ef1813dad642803bd7e9c99e7b/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+287            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+287-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/vinay/.gradle/caches/transforms-3/bbaf04ef1813dad642803bd7e9c99e7b/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+288            android:authorities="it.innopa.inspiaggia.lifecycle-process"
+288-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/vinay/.gradle/caches/transforms-3/bbaf04ef1813dad642803bd7e9c99e7b/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+289            android:exported="false"
+289-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/vinay/.gradle/caches/transforms-3/bbaf04ef1813dad642803bd7e9c99e7b/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+290            android:multiprocess="true" />
+290-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/vinay/.gradle/caches/transforms-3/bbaf04ef1813dad642803bd7e9c99e7b/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+291    </application>
+292
+293</manifest>

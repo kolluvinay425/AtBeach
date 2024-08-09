@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldpi-v4/values-ldpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/vinay/.gradle/caches/transforms-3/f98575f5518cee3038ddb0534931178d/transformed/jetified-payments-core-16.10.0/res/values-ldpi-v4/values-ldpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "56",
+                        "endOffsets": "107"
+                    }
+                }
+            ]
+        }
+    ]
+}

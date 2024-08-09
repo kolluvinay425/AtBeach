@@ -1,0 +1,15 @@
+it/innopa/inspiaggia/MainApplication.java
+ it.innopa.inspiaggia.MainApplication
+ it.innopa.inspiaggia.MainApplication$1
+it/spiaggeapp/ReactNativeFlipper.java
+ it.innopa.inspiaggia.ReactNativeFlipper
+ it.innopa.inspiaggia.ReactNativeFlipper$1
+ it.innopa.inspiaggia.ReactNativeFlipper$2
+ it.innopa.inspiaggia.ReactNativeFlipper$2$1
+it/innopa/inspiaggia/MainActivity.java
+ it.innopa.inspiaggia.MainActivity
+ it.innopa.inspiaggia.MainActivity$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+it/innopa/inspiaggia/BuildConfig.java
+ it.innopa.inspiaggia.BuildConfig

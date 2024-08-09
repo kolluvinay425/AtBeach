@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-en-rSG/values-en-rSG.xml",
+            "map": [
+                {
+                    "source": "/home/vinay/.gradle/caches/transforms-3/e7da8876bbcc4de19b48a41a6c45d366/transformed/jetified-play-services-wallet-18.1.3/res/values-en-rSG/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "206",
+                        "endColumns": "70",
+                        "endOffsets": "276"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "74",
+                        "endOffsets": "125"
+                    }
+                }
+            ]
+        }
+    ]
+}

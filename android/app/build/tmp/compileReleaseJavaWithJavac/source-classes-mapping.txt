@@ -1,0 +1,10 @@
+it/innopa/inspiaggia/MainApplication.java
+ it.innopa.inspiaggia.MainApplication
+ it.innopa.inspiaggia.MainApplication$1
+it/innopa/inspiaggia/MainActivity.java
+ it.innopa.inspiaggia.MainActivity
+ it.innopa.inspiaggia.MainActivity$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+it/innopa/inspiaggia/BuildConfig.java
+ it.innopa.inspiaggia.BuildConfig

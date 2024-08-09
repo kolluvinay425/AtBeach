@@ -1,0 +1,276 @@
+// @flow
+
+import {Platform, StyleSheet} from 'react-native';
+
+import {Fonts, Metrics} from '../../Themes';
+import {Colors} from '../../Themes/Colors';
+
+export default class StyleSheetFactory {
+  static getSheet() {
+    return StyleSheet.create({
+      container: {
+        flex: 1,
+        alignItems: 'center',
+        paddingTop: 30,
+        paddingBottom: 50,
+        paddingHorizontal: 24,
+      },
+      titleContainer: {
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+        alignItems: 'center',
+        paddingBottom: Metrics.doubleBaseMargin,
+      },
+      title: {
+        color: Colors.titleBlue,
+        fontFamily: Fonts.type.bold,
+        fontSize: 18,
+        textAlign: 'center',
+        flex: 1,
+      },
+      button: {
+        height: 55,
+        backgroundColor: Colors.activeButton,
+        width: Metrics.windowWidth - 90,
+        borderRadius: 26,
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginTop: 25,
+      },
+      buttonText: {
+        fontSize: Fonts.size.medium,
+        fontFamily: Fonts.type.base,
+        color: 'white',
+        marginLeft: 10,
+        fontWeight: '800',
+      },
+      text: {
+        fontSize: Fonts.size.small,
+        fontFamily: Fonts.type.base,
+        color: '#A4AEB7',
+        textAlign: 'center',
+      },
+      smallText: {
+        fontSize: Fonts.size.mini,
+        fontFamily: Fonts.type.base,
+        color: '#A4AEB7',
+        textAlign: 'center',
+      },
+      separator: {
+        alignItems: 'center',
+        marginVertical: 10,
+        flex: 1,
+      },
+      textInput: {
+        backgroundColor: 'rgba(0, 117, 246, 0.05)',
+        width: Metrics.windowWidth - 48,
+        borderRadius: 8,
+        fontSize: Fonts.size.medium,
+        borderWidth: 0,
+        height: 60,
+        color: Colors.text,
+        fontFamily: Fonts.type.base,
+        paddingHorizontal: 20,
+        paddingVertical: 5,
+        marginVertical: 5,
+      },
+      smallTextInput: {
+        width: (Metrics.windowWidth - 48) * 0.5 - 5,
+      },
+      footerOuterContainer: {
+        backgroundColor: 'white',
+        borderTopLeftRadius: 15,
+        borderTopRightRadius: 15,
+        paddingVertical: 10,
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        marginBottom: 20,
+        shadowColor: 'black',
+        shadowOpacity: 0.1,
+        shadowRadius: 3,
+        shadowOffset: {
+          height: -4,
+        },
+        elevation: 4,
+      },
+      footerTimeContainer: {
+        flexDirection: 'row',
+      },
+      separatorLine: {
+        height: 1,
+        width: '90%',
+        marginHorizontal: 20,
+        backgroundColor: Colors.lightgreyBorder,
+      },
+      footerContainer: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        paddingHorizontal: 20,
+        paddingTop: 10,
+      },
+      absoluteContainer: {
+        position: 'absolute',
+        bottom: 0,
+        left: 0,
+        right: 0,
+        paddingHorizontal: 20,
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        height: 120,
+      },
+      mainContainer: {
+        padding: 20,
+        alignItems: 'center',
+        paddingBottom: 60,
+      },
+      packageModalTitle: {
+        color: Colors.titleBlue,
+        fontFamily: Fonts.type.bold,
+        fontSize: 18,
+        textAlign: 'center',
+        flex: 1,
+      },
+      packageModalContent: {
+        alignItems: 'center',
+        paddingTop: 20,
+        paddingBottom: 60,
+      },
+      packageContainer: {
+        width: '90%',
+        backgroundColor: 'white',
+        margin: 10,
+        padding: 10,
+        borderRadius: 8,
+        shadowColor: 'black',
+        shadowOpacity: 0.1,
+        shadowRadius: 7,
+        shadowOffset: {
+          height: 1,
+        },
+        elevation: 4,
+      },
+      packageTitle: {
+        fontSize: Fonts.size.normal,
+        fontFamily: Fonts.type.bold,
+        fontWeight: '400',
+        color: Colors.text,
+        marginBottom: 5,
+      },
+      packageMessage: {
+        fontSize: Fonts.size.normal,
+        fontWeight: '400',
+        fontFamily: Fonts.type.base,
+        color: Colors.text,
+      },
+      packagePrice: {
+        fontSize: Fonts.size.title,
+        fontFamily: Fonts.type.bold,
+        color: Colors.text,
+      },
+      ticketImage: {
+        width: '100%',
+        height: 160,
+        borderRadius: 8,
+        overflow: 'hidden',
+      },
+      ticketInfo: {
+        width: '100%',
+        shadowColor: 'black',
+        shadowOpacity: 0.1,
+        shadowRadius: 7,
+        shadowOffset: {
+          height: 1,
+        },
+        elevation: 4,
+        backgroundColor: 'white',
+        borderRadius: 8,
+        padding: 20,
+        marginHorizontal: 20,
+        alignItems: 'center',
+      },
+      datesContainer: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        width: '100%',
+      },
+      infoBlockContainer: {
+        justifyContent: 'center',
+        alignItems: 'center',
+        padding: 10,
+      },
+      infoBlockTop: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
+      },
+      infoBlockIcon: {
+        width: 15,
+        height: 15,
+        marginRight: 5,
+      },
+      infoBlockLabel: {
+        fontSize: Fonts.size.small,
+        fontFamily: Fonts.type.base,
+        color: Colors.lightTextReadable,
+      },
+      infoBlockText: {
+        marginTop: 10,
+        fontSize: Fonts.size.medium,
+        fontFamily: Fonts.type.bold,
+        color: Colors.text,
+        textAlign: 'center',
+      },
+      verticalSeparator: {
+        width: 1,
+        height: '80%',
+        backgroundColor: Colors.sukinoGrey,
+      },
+      horizontalSeparator: {
+        width: '100%',
+        height: 1,
+        backgroundColor: Colors.sukinoGrey,
+        marginVertical: 15,
+      },
+      priceLabel: {
+        fontSize: Fonts.size.medium,
+        fontWeight: '700',
+        fontFamily: Fonts.type.base,
+        color: Colors.activeOrange,
+      },
+      priceValue: {
+        fontSize: Fonts.size.input,
+        fontWeight: '700',
+        fontFamily: Fonts.type.base,
+        color: Colors.activeOrange,
+      },
+      notesContainer: {
+        width: '100%',
+        marginTop: 10,
+        marginBottom: 30,
+        backgroundColor: 'white',
+        padding: 20,
+        borderRadius: 8,
+        shadowColor: 'black',
+        shadowOpacity: 0.1,
+        shadowRadius: 7,
+        shadowOffset: {
+          height: 1,
+        },
+        elevation: 4,
+      },
+      notesTouchable: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        width: '100%',
+      },
+      notesText: {
+        fontSize: Fonts.size.medium,
+        fontFamily: Fonts.type.base,
+        color: Colors.text,
+      },
+    });
+  }
+}

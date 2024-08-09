@@ -1,0 +1,650 @@
+[
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_map_pin_gre.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_map_pin_gre.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-xhdpi_node_modules_reactnativecalendars_src_calendar_img_next.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-xhdpi/node_modules_reactnativecalendars_src_calendar_img_next.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_profile_arrow.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_profile_arrow.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-xxxhdpi_node_modules_reactnativecalendars_src_img_down.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-xxxhdpi/node_modules_reactnativecalendars_src_img_down.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativeflashmessage_src_icons_fm_icon_info.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativeflashmessage_src_icons_fm_icon_info.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativeratings_src_images_airbnbstar.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativeratings_src_images_airbnbstar.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnavigationstack_lib_module_views_assets_backiconmask.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnavigationstack_lib_module_views_assets_backiconmask.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_beach_blueflag.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_beach_blueflag.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome5free.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_fontawesome5free.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_domserializer_node_modules_entities_lib_maps_entities.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_domserializer_node_modules_entities_lib_maps_entities.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_onboarding_onboarding3.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_onboarding_onboarding3.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_macros_sport.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_macros_sport.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_beach_openings.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_beach_openings.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_weather_rainfull.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_weather_rainfull.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_onboarding_skip.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_onboarding_skip.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_map_pin_yel.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_map_pin_yel.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnavigationstack_lib_module_views_assets_backicon.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnavigationstack_lib_module_views_assets_backicon.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome5free_meta.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_fontawesome5free_meta.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_weather_seamid.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_weather_seamid.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_dist_glyphmaps_fontawesome5free.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_dist_glyphmaps_fontawesome5free.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/xml_network_security_config.xml.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/res/xml/network_security_config.xml"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_weather_rainmid.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_weather_rainmid.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-hdpi_node_modules_reactnativecalendars_src_img_up.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-hdpi/node_modules_reactnativecalendars_src_img_up.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_dist_glyphmaps_materialcommunityicons.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_dist_glyphmaps_materialcommunityicons.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-xhdpi_node_modules_reactnativecalendars_src_calendar_img_previous.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-xhdpi/node_modules_reactnativecalendars_src_calendar_img_previous.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativeratings_src_images_airbnbstarselected.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativeratings_src_images_airbnbstarselected.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_antdesign.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_antdesign.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-xxxhdpi_node_modules_reactnativecalendars_src_img_up.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-xxxhdpi/node_modules_reactnativecalendars_src_img_up.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_entities_maps_decode.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_entities_maps_decode.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_stripe_stripereactnative_package.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_stripe_stripereactnative_package.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_description_spiaggebimbi2.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_description_spiaggebimbi2.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_beach.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_beach.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_characterentitieslegacy_index.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_characterentitieslegacy_index.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/mipmap-xxhdpi-v26_ic_launcher.xml.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/res/mipmap-xxhdpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_beach_parking.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_beach_parking.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_octicons.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_octicons.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_feather.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_feather.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-xxhdpi_splash_image.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/res/drawable-xxhdpi/splash_image.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_dist_glyphmaps_feather.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_dist_glyphmaps_feather.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_macros_nature.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_macros_nature.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_fontawesome.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_domserializer_node_modules_entities_lib_maps_legacy.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_domserializer_node_modules_entities_lib_maps_legacy.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_weather_seafull.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_weather_seafull.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/mipmap-xhdpi-v26_ic_foreground.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/res/mipmap-xhdpi-v26/ic_foreground.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_entypo.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_entypo.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_beach_disabled.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_beach_disabled.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_map_pin_red.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_map_pin_red.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_summary_tag.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_summary_tag.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_app_i18n_translations_translationfr.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/app_i18n_translations_translationfr.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_app.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/app.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-hdpi_node_modules_reactnativecalendars_src_calendar_img_previous.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-hdpi/node_modules_reactnativecalendars_src_calendar_img_previous.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_ticketcover.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_ticketcover.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_splash_image.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/res/drawable-mdpi/splash_image.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_entities_maps_xml.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_entities_maps_xml.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-xxxhdpi_node_modules_reactnativecalendars_src_calendar_img_previous.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-xxxhdpi/node_modules_reactnativecalendars_src_calendar_img_previous.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-xhdpi_node_modules_reactnativeflashmessage_src_icons_fm_icon_success.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-xhdpi/node_modules_reactnativeflashmessage_src_icons_fm_icon_success.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/mipmap-ldpi_ic_launcher.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/res/mipmap-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_simplelineicons.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_simplelineicons.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_onboarding_onboarding1.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_onboarding_onboarding1.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_logo.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_logo.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_zocial.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_zocial.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_domserializer_node_modules_entities_lib_maps_decode.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_domserializer_node_modules_entities_lib_maps_decode.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-xxhdpi_node_modules_reactnativeflashmessage_src_icons_fm_icon_danger.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-xxhdpi/node_modules_reactnativeflashmessage_src_icons_fm_icon_danger.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_weather_cloudfull.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_weather_cloudfull.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_evilicons.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_evilicons.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/mipmap-xxxhdpi-v26_ic_launcher.xml.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/res/mipmap-xxxhdpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativecalendars_src_img_up.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativecalendars_src_img_up.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_report_tree.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_report_tree.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-hdpi_node_modules_reactnativecalendars_src_calendar_img_next.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-hdpi/node_modules_reactnativecalendars_src_calendar_img_next.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-xhdpi_node_modules_reactnativeflashmessage_src_icons_fm_icon_warning.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-xhdpi/node_modules_reactnativeflashmessage_src_icons_fm_icon_warning.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativeratings_src_images_rocket.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativeratings_src_images_rocket.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_app_i18n_translations_translationes.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/app_i18n_translations_translationes.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_emptyres.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_emptyres.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_beach_cliff.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_beach_cliff.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-hdpi_node_modules_reactnativecalendars_src_img_down.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-hdpi/node_modules_reactnativecalendars_src_img_down.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativeflashmessage_src_icons_fm_icon_success.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativeflashmessage_src_icons_fm_icon_success.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-xxxhdpi_node_modules_reactnativecalendars_src_calendar_img_next.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-xxxhdpi/node_modules_reactnativecalendars_src_calendar_img_next.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_app_i18n_translations_translationen.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/app_i18n_translations_translationen.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_beach_book.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_beach_book.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_emptyreshis.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_emptyreshis.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_app_i18n_translations_translationit.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/app_i18n_translations_translationit.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/mipmap-xhdpi-v26_ic_launcher.xml.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/res/mipmap-xhdpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_app_i18n_translations_translationde.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/app_i18n_translations_translationde.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-xxhdpi_node_modules_reactnativecalendars_src_calendar_img_next.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-xxhdpi/node_modules_reactnativecalendars_src_calendar_img_next.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-xxhdpi_node_modules_reactnativecalendars_src_img_down.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-xxhdpi/node_modules_reactnativecalendars_src_img_down.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_description_spiaggebimbi.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_description_spiaggebimbi.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_dist_glyphmaps_fontawesome.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_dist_glyphmaps_fontawesome.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_macros_family.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_macros_family.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-xhdpi_node_modules_reactnativecalendars_src_img_down.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-xhdpi/node_modules_reactnativecalendars_src_img_down.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-xhdpi_splash_image.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/res/drawable-xhdpi/splash_image.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/mipmap-mdpi-v26_ic_launcher.xml.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/res/mipmap-mdpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_materialicons.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_materialicons.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-xxhdpi_node_modules_reactnavigationstack_lib_module_views_assets_backicon.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-xxhdpi/node_modules_reactnavigationstack_lib_module_views_assets_backicon.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_weather_sun.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_weather_sun.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/mipmap-ldpi-v26_ic_foreground.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/res/mipmap-ldpi-v26/ic_foreground.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/layout_launch_screen.xml.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/res/layout/launch_screen.xml"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_materialcommunityicons.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_materialcommunityicons.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_entities_maps_entities.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_entities_maps_entities.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_dist_glyphmaps_materialicons.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_dist_glyphmaps_materialicons.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-xxhdpi_node_modules_reactnativecalendars_src_calendar_img_previous.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-xxhdpi/node_modules_reactnativecalendars_src_calendar_img_previous.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_weather_sea.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_weather_sea.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/mipmap-xxxhdpi-v26_ic_foreground.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/res/mipmap-xxxhdpi-v26/ic_foreground.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/mipmap-ldpi-v26_ic_launcher.xml.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/res/mipmap-ldpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/mipmap-xxhdpi-v26_ic_foreground.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/res/mipmap-xxhdpi-v26/ic_foreground.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_beach_dogs.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_beach_dogs.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativeflashmessage_src_icons_fm_icon_warning.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativeflashmessage_src_icons_fm_icon_warning.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-xhdpi_node_modules_reactnativeflashmessage_src_icons_fm_icon_info.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-xhdpi/node_modules_reactnativeflashmessage_src_icons_fm_icon_info.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_beach_nobathing.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_beach_nobathing.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_stringifyentities_dangerous.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_stringifyentities_dangerous.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_foundation.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_foundation.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/mipmap-mdpi-v26_ic_foreground.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/res/mipmap-mdpi-v26/ic_foreground.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativeratings_src_images_heart.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativeratings_src_images_heart.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativeratings_src_images_star.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativeratings_src_images_star.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_characterentitieshtml4_index.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_characterentitieshtml4_index.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-xhdpi_node_modules_reactnavigationstack_lib_module_views_assets_backicon.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-xhdpi/node_modules_reactnavigationstack_lib_module_views_assets_backicon.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_weather_wind.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_weather_wind.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_weather_cloudmid.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_weather_cloudmid.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_background.jpg.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_background.jpg"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_assets_fonts_selection.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/assets_fonts_selection.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-xxhdpi_node_modules_reactnativeflashmessage_src_icons_fm_icon_success.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-xxhdpi/node_modules_reactnativeflashmessage_src_icons_fm_icon_success.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-xxxhdpi_node_modules_reactnavigationstack_lib_module_views_assets_backicon.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-xxxhdpi/node_modules_reactnavigationstack_lib_module_views_assets_backicon.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-xhdpi_node_modules_reactnativeflashmessage_src_icons_fm_icon_danger.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-xhdpi/node_modules_reactnativeflashmessage_src_icons_fm_icon_danger.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_dist_glyphmaps_fontawesome5free_meta.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_dist_glyphmaps_fontawesome5free_meta.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-xxhdpi_node_modules_reactnativecalendars_src_img_up.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-xxhdpi/node_modules_reactnativecalendars_src_img_up.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/mipmap-hdpi-v26_ic_launcher.xml.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/res/mipmap-hdpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_weareinpuglia.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_weareinpuglia.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-xhdpi_node_modules_reactnativecalendars_src_img_up.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-xhdpi/node_modules_reactnativecalendars_src_img_up.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable_splashscreen.xml.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/res/drawable/splashscreen.xml"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_beach_sand.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_beach_sand.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativecalendars_src_img_down.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativecalendars_src_img_down.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-xxhdpi_node_modules_reactnativeflashmessage_src_icons_fm_icon_info.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-xxhdpi/node_modules_reactnativeflashmessage_src_icons_fm_icon_info.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_user.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_user.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_report_redlight.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_report_redlight.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_domserializer_node_modules_entities_lib_maps_xml.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_domserializer_node_modules_entities_lib_maps_xml.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativeflashmessage_src_icons_fm_icon_danger.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativeflashmessage_src_icons_fm_icon_danger.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_ionicons.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_ionicons.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_dist_glyphmaps_simplelineicons.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_dist_glyphmaps_simplelineicons.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_domserializer_foreignnames.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_domserializer_foreignnames.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-hdpi_node_modules_reactnavigationstack_lib_module_views_assets_backicon.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-hdpi/node_modules_reactnavigationstack_lib_module_views_assets_backicon.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_summary_calender.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_summary_calender.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_report_boys.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_report_boys.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_emptyfav.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_emptyfav.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_fontisto.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_fontisto.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_entities_maps_legacy.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_entities_maps_legacy.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_onboarding_onboarding2.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_onboarding_onboarding2.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-xxhdpi_node_modules_reactnativeflashmessage_src_icons_fm_icon_warning.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-xxhdpi/node_modules_reactnativeflashmessage_src_icons_fm_icon_warning.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/mipmap-hdpi-v26_ic_foreground.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/res/mipmap-hdpi-v26/ic_foreground.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_dist_glyphmaps_ionicons.json.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_dist_glyphmaps_ionicons.json"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-hdpi_splash_image.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/res/drawable-hdpi/splash_image.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_splash.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_splash.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativeratings_src_images_bell.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativeratings_src_images_bell.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/drawable-mdpi_app_images_beach_placeholder.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/generated/res/react/release/drawable-mdpi/app_images_beach_placeholder.png"
+    },
+    {
+        "merged": "/home/vinay/innopa/innopa-spiaggeapp/android/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/vinay/innopa/innopa-spiaggeapp/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    }
+]
